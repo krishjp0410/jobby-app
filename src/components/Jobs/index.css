@@ -1,0 +1,102 @@
+.jobs-bg-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-bg-container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .job-side-bar-container {
+    width: 20%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .job-list-and-search-container {
+    width: 80%;
+  }
+}
+
+.search-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  border: solid 1px #ffffff;
+  padding-right: 0px;
+  border-radius: 4px;
+}
+
+.search-logo-btn {
+  background-color: #2c364c;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-logo {
+  color: #ffffff;
+}
+
+.search-input {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  flex-grow: 1;
+}
+
+.jobs-response-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.jobs-list-loader-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.job-list-item-container {
+  padding: 0px;
+}
+
+.no-job-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Error-job-image {
+  width: 70%;
+  max-width: 350px;
+}
+
+.Error-job-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Error-job-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+}

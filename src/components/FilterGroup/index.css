@@ -1,0 +1,20 @@
+.filter-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f1f5f9;
+}
+
+.filter-list-container {
+  padding: 0px;
+}
+
+.filter-list-item {
+  list-style-type: none;
+}
+
+.filter-label-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f1f5f9;
+  margin-left: 6px;
+}

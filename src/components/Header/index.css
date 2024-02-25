@@ -1,0 +1,42 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+  padding: 8px 16px 8px 16px;
+}
+
+.nav-web-logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.nav-menu-item {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  text-decoration: none;
+}
+
+.logout-btn {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  background-color: #4f46e5;
+  padding: 6px 20px 6px 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
