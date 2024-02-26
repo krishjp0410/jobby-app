@@ -78,3 +78,22 @@
     flex-wrap: wrap;
   }
 }
+
+.job-detail-failure-image {
+  width: 90%;
+  max-width: 450px;
+  margin-bottom: 20px;
+}
+
+.jod-detail-error-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.job-detail-error-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}

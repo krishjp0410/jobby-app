@@ -91,6 +91,23 @@ class JobItemDetails extends Component {
     }
   }
 
+  renderFailureView = () => (
+    <div className="job-details-failure-container">
+      <img
+        className="job-detail-failure-image"
+        src="https://assets.ccbp.in/frontend/react-js/failure-img.png"
+        alt="failure view"
+      />
+      <h1 className="jod-detail-error-heading">Oops! Something Went Wrong</h1>
+      <p className="job-detail-error-text">
+        We cannot seem to find the page you are looking for
+      </p>
+      <button className="Retry-btn" type="button" onClick={this.getJobDetails}>
+        Retry
+      </button>
+    </div>
+  )
+
   renderSuccessView = () => {
     const {jobData, similarJobData} = this.state
     const {

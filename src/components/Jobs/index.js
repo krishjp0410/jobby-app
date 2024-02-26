@@ -99,7 +99,7 @@ class Jobs extends Component {
         apiStatus: apiStatusContent.success,
       })
     } else {
-      this.state({apiStatus: apiStatusContent.failure})
+      this.setState({apiStatus: apiStatusContent.failure})
     }
   }
 
